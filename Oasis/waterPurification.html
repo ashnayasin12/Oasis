@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Purification Methods</title>
+    <style>
+         
+         body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #eef0f3 3px solid;
+            text-align: center;
+            padding-top: 20px;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float:none;
+            display: inline;
+            padding: 0 10px 0 10px;
+        }
+        header #branding {
+            float:none;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float:none;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('images/pure.jpg') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 20px;
+            position: relative;
+        }
+        .showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+            
+        }
+        .showcase h1,
+        .showcase p {
+            position: relative; 
+            z-index: 2; 
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            color: #d4d6db;
+        }
+        .section {
+            padding: 20px;
+            background-color: #fff;
+            /* margin-bottom: 20px; */
+            border-bottom: 20px solid #ccc;
+        }
+        .section img {
+            float: left;
+            margin-right: 20px;
+            width: 410px;
+            height: 410px;
+            border: 1px solid #ccc;
+        }
+        .section h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .container-footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+</style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+        <h1>Water Purification Methods</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#filtration">Filtration</a></li>
+                <li><a href="#distillation">Distillation</a></li>
+                <li><a href="#solar-disinfection">Solar Disinfection</a></li>
+                <li><a href="#uv-purification">UV Purification</a></li>
+                <li><a href="#chemical-disinfection">Chemical Disinfection</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>Effective Methods for Water Purification</h1>
+            <p>Learn about different methods to purify water efficiently.</p>
+        </div>
+    </section>
+    
+        <section id="filtration" class="section">
+            <div class="container">
+                
+                <img src="images/filter.png" alt="Filtration">
+                <h2>Filtration</h2>
+                <p>Filtration is a process that uses a physical barrier, chemical process, or biological process to remove impurities from water. This method is effective in removing larger particles and can be used in combination with other purification methods for better results.</p>
+                <ul>
+                    <li><strong>Physical Filtration:</strong> Uses materials like sand, gravel, and activated charcoal to trap and remove particulate matter.</li>
+                    <li><strong>Chemical Filtration:</strong> Involves using chemical reactions to remove contaminants, such as activated carbon filtering out chlorine and organic compounds.</li>
+                    <li><strong>Biological Filtration:</strong> Utilizes living organisms, like specific bacteria, to consume and break down harmful substances.</li>
+                </ul>
+                </div>
+            </section>
+            <section id="distillation" class="section">
+                <div class="container">
+                
+                <img src="images/distillation.png" alt="Distillation">
+                <h2>Distillation</h2>
+                <p>Distillation involves boiling water to produce steam, which is then condensed back into water, leaving impurities behind. This method is very effective at removing most types of contaminants, including bacteria, viruses, and chemicals.</p>
+                <ul>
+                    <li><strong>Energy Intensive:</strong> Requires a significant amount of energy to heat water to its boiling point.</li>
+                    <li><strong>Highly Effective:</strong> Removes nearly all types of contaminants, including heavy metals, salts, and most pathogens.</li>
+                    <li><strong>Distilled Water Use:</strong> Commonly used in laboratories and medical facilities due to its high purity.</li>
+                </ul>
+                </div>
+            </section>
+            <section id="solar-disinfection" class="section">
+                <div class="container">
+                
+                <img src="images/SODIS.png" alt="Solar Disinfection">
+                <h2>Solar Disinfection</h2>
+                <p>Solar disinfection, also known as SODIS, uses solar energy to disinfect water. Clear plastic bottles filled with water are exposed to sunlight for several hours, effectively killing pathogens through UV radiation and heat.</p>
+                <ul>
+                    <li><strong>Cost-Effective:</strong> Utilizes sunlight, making it a very affordable method for communities without access to expensive purification systems.</li>
+                    <li><strong>Simple Implementation:</strong> Easy to implement using available resources, particularly in rural or developing areas.</li>
+                    <li><strong>Effective in Clear Conditions:</strong> Works best in sunny environments; cloudy days can reduce effectiveness.</li>
+                </ul>
+                </div>
+            </section>
+            <section id="uv-purification" class="section">
+                <div class="container">
+                
+                <img src="images/UV.png" alt="UV Purification">
+                <h2>UV Purification</h2>
+                <p>UV purification uses ultraviolet light to kill or inactivate microorganisms by destroying their DNA. This method is fast and effective, often used in combination with filtration to ensure safe drinking water.</p>
+                <ul>
+                    <li><strong>Quick Processing:</strong> UV systems can treat water quickly, making them suitable for high-throughput applications.</li>
+                    <li><strong>No Chemical Additives:</strong> Does not introduce any chemicals into the water, preserving its taste and safety.</li>
+                    <li><strong>Effective Against Pathogens:</strong> Destroys bacteria, viruses, and protozoa, ensuring comprehensive disinfection.</li>
+                </ul>
+                </div>
+            </section>
+            <section id="chemical-disinfection" class="section">
+                <div class="container">
+                
+                <img src="images/disinfection.png" alt="Chemical Disinfection">
+                <h2>Chemical Disinfection</h2>
+                <p>Chemical disinfection involves adding chemicals, such as chlorine or iodine, to water to kill harmful microorganisms. This method is widely used in public water supplies and can be effective for emergency water treatment.</p>
+                <ul>
+                    <li><strong>Widely Used:</strong> Common in municipal water treatment to ensure safe drinking water for large populations.</li>
+                    <li><strong>Portable Solutions:</strong> Chemical tablets and drops are available for individual use in emergency or travel situations.</li>
+                    <li><strong>Residual Protection:</strong> Provides ongoing disinfection as the chemicals remain active in the water for some time.</li>
+                    <li><strong>Requires Proper Dosage:</strong> Careful measurement is needed to ensure effectiveness without harmful side effects.</li>
+                </ul>
+                </div>
+            </section>
+            <footer>
+                <div class="container-footer">
+                    <p>&copy; Oasis All Rights Reserved.</p>
+                </div>
+            </footer>
+        </body>
+        </html>

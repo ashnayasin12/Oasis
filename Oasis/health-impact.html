@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Impact of Unsafe Water</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #eef0f3 3px solid;
+            text-align: center;
+            padding-top: 20px;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float:none;
+            display: inline;
+            padding: 0 10px 0 10px;
+        }
+        header #branding {
+            float:none;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float:none;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('images/health.png') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 20px;
+            position: relative;
+        }
+        .showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+            
+        }
+        .showcase h1,
+        .showcase p {
+            position: relative; 
+            z-index: 2; 
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            color: #d4d6db;
+        }
+        .section {
+            padding: 20px;
+            background-color: #fff;
+            /* margin-bottom: 20px; */
+            border-bottom: 20px solid #ccc;
+        }
+        .section img {
+            float: left;
+            margin-right: 20px;
+            width: 410px;
+            height: 410px;
+            border: 1px solid #ccc;
+        }
+        .section h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .container-footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Health Impact of Unsafe Water </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#gastrointestinal-issues">Gastrointestinal Issues</a></li>
+                    <li><a href="#respiratory-infections">Respiratory Infections</a></li>
+                    <li><a href="#skin-problems">Skin Problems</a></li>
+                    <li><a href="#organ-damage">Organ Damage</a></li>
+                    <li><a href="#cancer-risk">Cancer Risk</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Health Impact of Unsafe Water</h1>
+            <p>Learn about the health impact of using unsafe water.</p>
+        </div>
+    </section>
+
+    <main>
+        <section id="gastrointestinal-issues" class="section">
+            <div class="container clearfix">
+                <img src="images/gastro.png" alt="Gastrointestinal Issues">
+                <h2>Gastrointestinal Issues</h2>
+                <p>Consuming unsafe water can cause various gastrointestinal problems such as:</p>
+                <ul>
+                    <li><strong>Diarrhea:</strong> A common result of drinking contaminated water, diarrhea can lead to severe dehydration and electrolyte imbalance. This is particularly dangerous for children, the elderly, and individuals with compromised immune systems.</li>
+                    <li><strong>Dysentery:</strong> A more severe form of diarrhea that includes blood in the stool, caused by bacterial infections like Shigella or Entamoeba histolytica.</li>
+                    <li><strong>Cholera:</strong> An acute diarrheal illness caused by the Vibrio cholerae bacteria, which can be fatal if not treated promptly.</li>
+                </ul>
+                <p>These conditions can lead to serious health issues, and in severe cases, they can be life-threatening if not treated promptly. Ensuring access to clean drinking water and proper sanitation can significantly reduce these risks.</p>
+            </div>
+        </section>
+
+        <section id="respiratory-infections" class="section">
+            <div class="container clearfix">
+                <img src="images/lung.png" alt="Respiratory Infections">
+                <h2>Respiratory Infections</h2>
+                <p>Contaminated water can contribute to respiratory infections, including:</p>
+                <ul>
+                    <li><strong>Pneumonia:</strong> Bacteria and viruses present in contaminated water can cause pneumonia, an infection that inflames the air sacs in one or both lungs, which can fill with fluid or pus.</li>
+                    <li><strong>Legionnaires' Disease:</strong> A severe form of pneumonia caused by inhaling water droplets containing Legionella bacteria, often found in contaminated water systems.</li>
+                </ul>
+                <p>These infections can be particularly severe in children, the elderly, and those with preexisting health conditions. Preventing contamination and ensuring clean water supply can help mitigate these risks.</p>
+            </div>
+        </section>
+
+        <section id="skin-problems" class="section">
+            <div class="container clearfix">
+                <img src="images/skin.png" alt="Skin Problems">
+                <h2>Skin Problems</h2>
+                <p>Exposure to unsafe water can cause various skin issues, such as:</p>
+                <ul>
+                    <li><strong>Rashes and Irritations:</strong> Chemicals and pathogens in contaminated water can lead to skin irritations and rashes, which can be uncomfortable and sometimes painful.</li>
+                    <li><strong>Infections:</strong> Bacterial and fungal infections can occur when contaminated water is used for washing or bathing, particularly if there are cuts or abrasions on the skin.</li>
+                </ul>
+                <p>Maintaining clean water for personal hygiene is crucial to prevent these dermatological problems and ensure overall skin health.</p>
+            </div>
+        </section>
+
+        <section id="organ-damage" class="section">
+            <div class="container clearfix">
+                <img src="images/organ.png" alt="Organ Damage">
+                <h2>Organ Damage</h2>
+                <p>Long-term consumption of contaminated water can lead to significant organ damage, affecting vital organs such as:</p>
+                <ul>
+                    <li><strong>Liver:</strong> Heavy metals and toxic chemicals can accumulate in the liver, impairing its function and potentially leading to liver disease or failure.</li>
+                    <li><strong>Kidneys:</strong> Contaminants such as heavy metals, nitrates, and certain organic compounds can damage the kidneys, leading to chronic kidney disease or kidney failure.</li>
+                    <li><strong>Heart:</strong> High levels of certain contaminants can contribute to cardiovascular problems, including hypertension and heart disease.</li>
+                </ul>
+                <p>Protecting water sources from contamination and ensuring regular monitoring and treatment can help prevent these long-term health issues.</p>
+            </div>
+        </section>
+
+        <section id="cancer-risk" class="section">
+            <div class="container clearfix">
+                <img src="images/cancer.png" alt="Cancer Risk">
+                <h2>Cancer Risk</h2>
+                <p>Certain contaminants in water are known to increase the risk of cancer over time, including:</p>
+                <ul>
+                    <li><strong>Heavy Metals:</strong> Arsenic, lead, and other heavy metals have been linked to various types of cancer, including skin, bladder, and lung cancer.</li>
+                    <li><strong>Chemicals:</strong> Industrial chemicals such as benzene and trichloroethylene (TCE) are known carcinogens that can contaminate water supplies and increase cancer risk.</li>
+                </ul>
+                <p>Ensuring water safety and quality through rigorous testing, regulation, and treatment is critical to reduce these long-term health risks and protect public health.</p>
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="container-footer">
+            <p>&copy; All Rights Reserved by Oasis.</p>
+        </div>
+    </footer>
+</body>
+</html>
